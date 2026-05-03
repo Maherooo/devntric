@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #05030f;
+  --purple: #7c3aed;
+  --purple-light: #a855f7;
+  --pink: #ec4899;
+  --orange: #f97316;
+  --blue: #3b82f6;
+  --green: #22c55e;
+  --teal: #14b8a6;
+  --red: #ef4444;
+  --yellow: #eab308;
+  --text: #ffffff;
+  --text-muted: #94a3b8;
+  --border: rgba(255, 255, 255, 0.08);
+  --heading: 'Space Grotesk', sans-serif;
+  --body: 'Inter', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+#root::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(1px 1px at 8%  15%, rgba(255,255,255,.25) 0%, transparent 100%),
+    radial-gradient(1px 1px at 25% 55%, rgba(255,255,255,.18) 0%, transparent 100%),
+    radial-gradient(1px 1px at 48% 8%,  rgba(255,255,255,.22) 0%, transparent 100%),
+    radial-gradient(1px 1px at 68% 78%, rgba(255,255,255,.18) 0%, transparent 100%),
+    radial-gradient(1px 1px at 88% 38%, rgba(255,255,255,.25) 0%, transparent 100%),
+    radial-gradient(1px 1px at 18% 88%, rgba(255,255,255,.14) 0%, transparent 100%),
+    radial-gradient(1px 1px at 58% 48%, rgba(255,255,255,.18) 0%, transparent 100%),
+    radial-gradient(1px 1px at 78% 12%, rgba(255,255,255,.22) 0%, transparent 100%),
+    radial-gradient(600px 600px at 5%   0%,   rgba(124,58,237,.13) 0%, transparent 70%),
+    radial-gradient(400px 400px at 95% 100%, rgba(168,85,247,.08) 0%, transparent 70%);
+}
