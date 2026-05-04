@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { PAGES, PAGE_LABELS } from "../data/data";
+import logo from "../components/logo/logo.png"
+
 
 export default function Nav({ page, setPage }) {
   const [open, setOpen] = useState(false);
@@ -35,7 +37,7 @@ export default function Nav({ page, setPage }) {
           ))}
         </ul>
 
-        <div className="dv-nav-avatar">D</div>
+        <div className="dv-nav-avatar"><img src={logo} className="nav-logos" alt="" srcset="" /></div>
 
         <button
           className={`dv-hamburger${open ? " open" : ""}`}
