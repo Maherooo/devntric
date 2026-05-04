@@ -69,8 +69,8 @@ export default function Courses() {
               <h3>{title}</h3>
               <p>{desc}</p>
               <div className="course-footer">
-                <span>{lessons} Lessons</span>
-                <span className="course-level">{level}</span>
+                {/* <span>{lessons} Lessons</span> {level}*/}
+                <span className="course-level">Upcoming</span>
                 <div className="arr-btn" style={{ background: color }}>
                   <i className="fas fa-arrow-right" />
                 </div>
