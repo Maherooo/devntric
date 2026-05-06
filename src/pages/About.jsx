@@ -44,7 +44,7 @@ export default function About({ setPage }) {
 
         {/* ── RIGHT ────────────────────────────────────────────────────── */}
         <div className="dv-right anim-right" style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-          {TEAM.map(({ init, name, role, grad }) => (
+          {TEAM.map(({init, name, role, grad }) => (
             <div key={name} className="team-card">
               <div className="team-avatar" style={{ background: grad }}>
                 {init}
