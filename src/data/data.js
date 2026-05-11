@@ -48,7 +48,7 @@ export const HOME_CARDS = [
 
 // ── TEAM ──────────────────────────────────────────────────────────────────
 export const TEAM = [
-  { init: "M", name: "Maher Ahmed", role: "Developer",  grad: "linear-gradient(135deg,#7c3aed,#a855f7)" },
+  { init: "M", name: "Maher Ahmed", role: "Mern Stack Developer",  grad: "linear-gradient(135deg,#7c3aed,#a855f7)" },
   { init: "L", name: "Lazim Khandakar",   role: "UI/UX Designer",             grad: "linear-gradient(135deg,#f97316,#ec4899)" },
   { init: "S", name: "Sabbir Khan",  role: "Product Lead",           grad: "linear-gradient(135deg,#3b82f6,#06b6d4)" },
   { init: "O", name: "Mustafiz Ahmed Ovi",   role: "Seo Expert",     grad: "linear-gradient(135deg,#22c55e,#14b8a6)" },

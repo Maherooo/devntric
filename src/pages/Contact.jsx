@@ -25,7 +25,7 @@ export default function Contact() {
 
     setSending(true);
     const body = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0A%0AMessage:%0A${encodeURIComponent(message)}`;
-    window.location.href = `mailto:maherox79@gmail.com?subject=Devntric: ${encodeURIComponent(subject)} - ${encodeURIComponent(name)}&body=${body}`;
+    window.location.href = `mailto:devntric@gmail.com?subject=Devntric: ${encodeURIComponent(subject)} - ${encodeURIComponent(name)}&body=${body}`;
 
     setTimeout(() => {
       setSending(false);
