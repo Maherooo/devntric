@@ -57,7 +57,7 @@ export default function Contact() {
           {/* Social links */}
           <div className="grid-2-soc" style={{ marginTop: 8 }}>
             {SOCIAL_LINKS.map(({ href, cls, ic, icon, label }) => (
-              <a key={label} href={href} className={`soc-card ${cls}`}>
+              <a key={label} href={href} className={`soc-card ${cls}` } target="_blank">
                 <div
                   className={`icon-circle ${ic}`}
                   style={{ width: 34, height: 34, fontSize: ".85rem", flexShrink: 0 }}
