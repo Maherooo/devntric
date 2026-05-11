@@ -48,10 +48,10 @@ export const HOME_CARDS = [
 
 // ── TEAM ──────────────────────────────────────────────────────────────────
 export const TEAM = [
-  { init: "M", name: "Maher Ahmed", role: "Mern Stack Developer",  grad: "linear-gradient(135deg,#7c3aed,#a855f7)" },
-  { init: "L", name: "Lazim Khandakar",   role: "UI/UX Designer",             grad: "linear-gradient(135deg,#f97316,#ec4899)" },
-  { init: "S", name: "Sabbir Khan",  role: "Product Lead",           grad: "linear-gradient(135deg,#3b82f6,#06b6d4)" },
-  { init: "O", name: "Mustafiz Ahmed Ovi",   role: "Seo Expert",     grad: "linear-gradient(135deg,#22c55e,#14b8a6)" },
+  { init: "M", name: "Maher Ahmed", role: "Code Architect",  grad: "linear-gradient(135deg,#7c3aed,#a855f7)" },
+  { init: "L", name: "Lazim Khandakar",   role: "Launch Director",             grad: "linear-gradient(135deg,#f97316,#ec4899)" },
+  { init: "S", name: "Sabbir Khan",  role: "Logic Engineer",           grad: "linear-gradient(135deg,#3b82f6,#06b6d4)" },
+  { init: "O", name: "Mustafij Ahmed Ovi",   role: "Visual Craftsman",     grad: "linear-gradient(135deg,#22c55e,#14b8a6)" },
 ];
 
 // ── STATS ─────────────────────────────────────────────────────────────────

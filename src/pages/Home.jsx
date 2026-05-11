@@ -8,7 +8,7 @@ export default function Home({ setPage }) {
         {/* ── LEFT ─────────────────────────────────────────────────────── */}
         <div className="dv-left anim-left">
           <div className="dv-badge">
-            <i className="fas fa-code" /> CODE TODAY. BUILD TOMORROW.
+            <i className="fas fa-code " /> CODE TODAY. BUILD TOMORROW.
           </div>
           <h1 className="dv-hero-title">
             Empowering<br />Minds.<br />
