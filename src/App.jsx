@@ -18,8 +18,8 @@ export default function App() {
 
   const renderPage = () => {
     switch (page) {
-      case "Home":     return <Home     setPage={setPage} />;
       case "About":    return <About    setPage={setPage} />;
+      case "Home":     return <Home     setPage={setPage} />;
       case "Services": return <Services setPage={setPage} />;
       case "Products": return <Products />;
       case "Courses":  return <Courses  />;

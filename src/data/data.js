@@ -1,5 +1,5 @@
 // ── NAV PAGES ─────────────────────────────────────────────────────────────
-export const PAGES = ["Home", "About", "Services", "Products", "Courses", "Contact"];
+export const PAGES = ["Home", "Services", "Products", "Courses","About","Contact"];
 
 export const PAGE_LABELS = {
   Home:     "Home",
